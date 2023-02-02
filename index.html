@@ -17,9 +17,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Pintrest Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>KHK | Portfolio</title>
   </head>
   <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark position-absolute top-0 w-100"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar scroll</a>
+      </div>
+    </nav>
     <section style="height: 100vh">
       <div
         style="
@@ -30,111 +38,145 @@
           background-size: cover;
           background-repeat: no-repeat;
         "
-        class="d-flex justify-content-center align-items-end p-3"
+        class="d-flex justify-content-center align-items-end"
       >
-        <div class="text-white text-center">
-          <h1 class="p-0">Content Bottom - Cover Title Goes Here</h1>
-          <p>Header 100% high and bottom align</p>
-          <button type="button" class="btn btn-primary mb-5">
-            Get Started Now <i class="fa-solid fa-circle-arrow-right"></i>
-          </button>
-          <button
-            type="button"
-            class="m-3 btn btn-link d-block mx-auto text-white"
-          >
-            <i class="fa-solid fa-arrow-down fs-3"></i>
-          </button>
+        <div style="height: 80%" class="d-flex flex-column align-items-center">
+          <img
+            class="rounded-circle mb-4"
+            style="width: 15rem; height: 15rem"
+            src="./.assets/gr1.jpg"
+            alt=""
+          />
+          <div class="text-white text-center">
+            <h1 class="p-0 text-capitalize">Structural Enginner Cum Trainer</h1>
+            <p class="lead">Always try to be a student and a teacher</p>
+            <a
+              type="button"
+              href="./.assets/CV Form_khk.pdf"
+              class="btn btn-primary mb-4"
+              download
+            >
+              Download CV <i class="fa-solid fa-circle-arrow-down"></i>
+            </a>
+            <a href="#main" class="d-block mx-auto text-white">
+              <i class="fa-solid fa-arrow-down fs-3"></i>
+            </a>
+          </div>
         </div>
       </div>
     </section>
-    <main class="container-fluid bg-dark text-white">
+    <main id="main" class="container-fluid bg-dark text-white">
       <section class="px-3 pt-5 mb-5">
+        <div class="text-center mb-3 container">
+          <div class="row justify-content-center">
+            <div class="my-3 col-12 display-4 fw-bold">
+              Software Skills Stack
+            </div>
+          </div>
+        </div>
         <div class="d-flex flex-wrap justify-content-evenly">
           <div
-            style="max-width: 300px; min-width: 100px"
-            class="d-flex flex-column align-items-center p-2 mb-3"
+            style="max-width: 200px; min-width: 100px"
+            class="d-flex flex-column align-items-center p-2"
           >
-            <div class="mb-3 border border-light p-3 rounded-circle">
-              <i class="fa-solid fa-gem fs-2"></i>
-            </div>
-            <div class="fs-5 fw-bold mb-2">Clean Design</div>
-            <small class="text-center d-none d-md-block mb-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum velit
-              ut at iusto quam animi harum facere corrupti tempora quidem.
-            </small>
-            <button
-              class="border border-primary btn btn-link text-decoration-none"
-              type="button"
+            <div
+              style="height: 62px; width: 62px"
+              class="mb-3 border border-light rounded-circle"
             >
-              <small>View Details</small>
-            </button>
+              <img
+                class="w-100 h-100 rounded-circle"
+                src="./.assets/etabs.jfif"
+              />
+            </div>
+            <div class="fs-5 fw-bold mb-2">Etabs & Safe</div>
+            <small class="lead text-center fs-6"
+              >Certificate in Etabs and Safe Advanced Course</small
+            >
           </div>
 
           <div
-            style="max-width: 300px; min-width: 100px"
+            style="max-width: 200px; min-width: 100px"
             class="d-flex flex-column align-items-center p-2"
           >
-            <div class="mb-3 border border-light p-3 rounded-circle">
-              <i class="fa-solid fa-desktop fs-3"></i>
-            </div>
-            <div class="fs-5 fw-bold mb-2">Responsive</div>
-            <small class="text-center d-none d-md-block mb-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum velit
-              ut at iusto quam animi harum facere corrupti tempora quidem.
-            </small>
-            <button
-              class="border border-primary btn btn-link text-decoration-none"
-              type="button"
+            <div
+              style="height: 62px; width: 62px"
+              class="mb-3 border border-light rounded-circle"
             >
-              <small>View Details</small>
-            </button>
+              <img
+                class="w-100 h-100 rounded-circle"
+                src="./.assets/autocad.png"
+              />
+            </div>
+            <div class="fs-5 fw-bold mb-2">Autocad</div>
+            <small class="lead text-center fs-6"
+              >Certificate in Autocad 2D and 3D</small
+            >
           </div>
 
           <div
-            style="max-width: 300px; min-width: 100px"
+            style="max-width: 200px; min-width: 100px"
             class="d-flex flex-column align-items-center p-2"
           >
-            <div class="mb-3 border border-light p-3 rounded-circle">
-              <i class="fa-solid fa-cubes fs-3"></i>
-            </div>
-            <div class="fs-5 fw-bold mb-2">HTML Blocks</div>
-            <small class="text-center d-none d-md-block mb-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum velit
-              ut at iusto quam animi harum facere corrupti tempora quidem.
-            </small>
-            <button
-              class="border border-primary btn btn-link text-decoration-none"
-              type="button"
+            <div
+              style="height: 62px; width: 62px"
+              class="mb-3 border border-light rounded-circle"
             >
-              <small>View Details</small>
-            </button>
+              <img
+                class="w-100 h-100 rounded-circle"
+                src="./.assets/revit.jfif"
+              />
+            </div>
+            <div class="fs-5 fw-bold mb-2">Revit</div>
+            <small class="lead text-center fs-6"
+              >Certificate in Revit Architecture</small
+            >
           </div>
 
           <div
-            style="max-width: 300px; min-width: 100px"
+            style="max-width: 200px; min-width: 100px"
             class="d-flex flex-column align-items-center p-2"
           >
-            <div class="mb-3 border border-light p-3 rounded-circle">
-              <i class="fa-solid fa-code fs-4"></i>
-            </div>
-            <div class="fs-5 fw-bold mb-2">Code</div>
-            <small class="text-center d-none d-md-block mb-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum velit
-              ut at iusto quam animi harum facere corrupti tempora quidem.
-            </small>
-            <button
-              class="border border-primary btn btn-link text-decoration-none"
-              type="button"
+            <div
+              style="height: 62px; width: 62px"
+              class="mb-3 border border-light rounded-circle"
             >
-              <small>View Details</small>
-            </button>
+              <img
+                class="w-100 h-100 rounded-circle"
+                src="./.assets/tekla.jfif"
+              />
+            </div>
+            <div class="fs-5 fw-bold mb-2">Tekla</div>
+            <small class="lead text-center fs-6"
+              >Certificate in Tekla Structure</small
+            >
+          </div>
+
+          <div
+            style="max-width: 200px; min-width: 100px"
+            class="d-flex flex-column align-items-center p-2"
+          >
+            <div
+              style="height: 62px; width: 62px"
+              class="mb-3 border border-light rounded-circle"
+            >
+              <img
+                class="w-100 h-100 rounded-circle"
+                src="./.assets/staadpro.jfif"
+              />
+            </div>
+            <div class="fs-5 fw-bold mb-2">Staad Pro</div>
+            <small class="lead text-center fs-6"
+              >Certificate in Staad Pro Advanced Course</small
+            >
           </div>
         </div>
       </section>
       <section class="my-5 px-3">
         <div class="text-center mb-5 container">
           <div class="row justify-content-center">
-            <div class="my-3 col-12 display-4 fw-bold">Blueprints</div>
+            <div class="my-3 col-12 display-4 fw-bold">
+              Projects Contributed
+            </div>
             <p class="col-md-9 lead">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Exercitationem modi nulla hic dignissimos eos aperiam soluta ab
